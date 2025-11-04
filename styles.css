@@ -360,6 +360,41 @@ header h1 {
     box-shadow: 0 6px 20px rgba(167, 139, 250, 0.6);
 }
 
+/* PowerRise Section */
+.powerrise-section {
+    background: linear-gradient(135deg, rgba(255, 107, 107, 0.15) 0%, rgba(254, 202, 87, 0.15) 100%);
+    border: 2px solid rgba(255, 107, 107, 0.3);
+}
+
+.btn-powerrise {
+    display: inline-block;
+    width: 100%;
+    padding: 18px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #ff6b6b 0%, #feca57 50%, #ff6b6b 100%);
+    background-size: 200% 200%;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+    text-align: center;
+    animation: powerriseGradient 3s ease infinite;
+}
+
+.btn-powerrise:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.6);
+    background-position: 100% 50%;
+}
+
+@keyframes powerriseGradient {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
 .btn-secondary {
     padding: 12px 24px;
     font-size: 1rem;
