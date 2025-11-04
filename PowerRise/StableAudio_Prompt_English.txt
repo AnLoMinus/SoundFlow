@@ -1,0 +1,12 @@
+⚡ **PowerRise | Energetic Anthem**
+
+🎚 **Style:** Energetic - Music full of energy
+🎛 **Instruments:** Violin, harp, flute, trumpet, saxophone, drums, bass drum, electric piano
+🌡 **Mood:** Powerful 💪
+⏱ **Tempo:** 180 BPM
+🎧 **Keywords:** Power, strength, heroism, victory
+
+🧠 **Prompt for StableAudio:**
+
+"Energetic music full of energy, featuring violin, harp, flute, trumpet, saxophone, drums, bass drum, electric piano. The track conveys a powerful mood with power, strength, heroism, victory. 180 BPM, cinematic mastering with energetic elements."
+

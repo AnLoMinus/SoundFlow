@@ -1,0 +1,12 @@
+⚡ **AnLoMinus in Motion – Energy Devotion**
+
+🎚 **Style:** Hybrid Electronic - Fusion of classical and electronic instruments
+🎛 **Instruments:** Synthesizer, synth bass, pad, lead, arpeggio, drums, bass drum, electric piano
+🌡 **Mood:** Energetic ⚡
+⏱ **Tempo:** 96 BPM
+🎧 **Keywords:** Energy, motion, dynamism, activity
+
+🧠 **Prompt for StableAudio:**
+
+"Hybrid electronic fusion of classical and electronic instruments, featuring synthesizer, synth bass, pad, lead, arpeggio, drums, bass drum, electric piano. The track conveys an energetic mood with energy, motion, dynamism, activity. 96 BPM, cinematic mastering with hybrid electronic elements."
+
