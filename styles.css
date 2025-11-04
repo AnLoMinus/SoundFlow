@@ -464,3 +464,119 @@ header h1 {
     }
 }
 
+/* Footer */
+.footer {
+    margin-top: 60px;
+    padding: 40px 30px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #a78bfa;
+    border-bottom: 2px solid rgba(167, 139, 250, 0.3);
+    padding-bottom: 10px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #cbd5e1;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #a78bfa;
+    transform: translateX(-5px);
+    text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+}
+
+.footer-text {
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.footer-text strong {
+    color: #ffffff;
+}
+
+.footer-text a {
+    color: #60a5fa;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-text a:hover {
+    color: #a78bfa;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: #cbd5e1;
+}
+
+.footer-bottom p {
+    margin: 8px 0;
+    font-size: 0.9rem;
+}
+
+.license-info {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.license-info a {
+    color: #60a5fa;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.license-info a:hover {
+    color: #a78bfa;
+    text-decoration: underline;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 20px;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .footer-section h3 {
+        font-size: 1.1rem;
+    }
+}
+
