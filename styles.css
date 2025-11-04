@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e1e2e 0%, #4a1e4a 50%, #1e1e2e 100%);
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 20px;
+    direction: rtl;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, #a78bfa 0%, #60a5fa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #cbd5e1;
+    opacity: 0.9;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #e0e7ff;
+}
+
+/* כלי נגינה */
+.instruments-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.instrument-item {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.instrument-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #a78bfa;
+    transform: translateY(-2px);
+}
+
+.instrument-item input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #a78bfa;
+}
+
+.instrument-item.selected {
+    background: rgba(167, 139, 250, 0.2);
+    border-color: #a78bfa;
+}
+
+.instrument-item label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    font-size: 1rem;
+}
+
+.instrument-category {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.instrument-category h3 {
+    font-size: 1.3rem;
+    color: #cbd5e1;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* סגנונות */
+.styles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.style-item {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.style-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #60a5fa;
+    transform: translateY(-2px);
+}
+
+.style-item.selected {
+    background: rgba(96, 165, 250, 0.2);
+    border-color: #60a5fa;
+}
+
+.style-item input[type="radio"] {
+    display: none;
+}
+
+.style-item .emoji {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.style-item .name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.style-item .description {
+    font-size: 0.9rem;
+    color: #cbd5e1;
+    opacity: 0.8;
+}
+
+/* מצבי רוח */
+.moods-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.mood-item {
+    background: rgba(255, 255, 255, 0.05);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.mood-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #f472b6;
+    transform: translateY(-2px);
+}
+
+.mood-item.selected {
+    background: rgba(244, 114, 182, 0.2);
+    border-color: #f472b6;
+}
+
+.mood-item input[type="radio"] {
+    display: none;
+}
+
+.mood-item .emoji {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.mood-item .name {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/* קצב */
+.tempo-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#tempo-slider {
+    width: 100%;
+    height: 8px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    outline: none;
+    cursor: pointer;
+}
+
+#tempo-slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #a78bfa;
+    cursor: pointer;
+}
+
+#tempo-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #a78bfa;
+    cursor: pointer;
+    border: none;
+}
+
+.tempo-display {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #a78bfa;
+}
+
+.tempo-presets {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.preset-btn {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.preset-btn:hover {
+    background: rgba(167, 139, 250, 0.3);
+    border-color: #a78bfa;
+}
+
+/* מילות מפתח */
+.keywords-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.keywords-input input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+}
+
+.keywords-input input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.keywords-input input:focus {
+    outline: none;
+    border-color: #a78bfa;
+}
+
+.keywords-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.keyword-tag {
+    background: rgba(167, 139, 250, 0.3);
+    border: 1px solid #a78bfa;
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+}
+
+.keyword-tag .remove {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+.keyword-tag .remove:hover {
+    color: #ff4444;
+}
+
+/* כותרת מותאמת */
+#custom-title {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1rem;
+}
+
+#custom-title:focus {
+    outline: none;
+    border-color: #a78bfa;
+}
+
+/* כפתורים */
+.btn-primary {
+    width: 100%;
+    padding: 18px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: linear-gradient(135deg, #a78bfa 0%, #60a5fa 100%);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(167, 139, 250, 0.4);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(167, 139, 250, 0.6);
+}
+
+.btn-secondary {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+/* תוצאה */
+.result-section {
+    background: rgba(167, 139, 250, 0.15);
+    border: 2px solid #a78bfa;
+}
+
+.prompt-result {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+    white-space: pre-wrap;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.result-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+/* רספונסיבי */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .card {
+        padding: 20px;
+    }
+    
+    .instruments-grid,
+    .styles-grid,
+    .moods-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .keywords-input {
+        flex-direction: column;
+    }
+    
+    .result-actions {
+        flex-direction: column;
+    }
+    
+    .result-actions button {
+        width: 100%;
+    }
+}
+

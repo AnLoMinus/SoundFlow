@@ -1,0 +1,242 @@
+{
+  "instruments": [
+    {
+      "id": "violin",
+      "name": "כינור",
+      "category": "מיתרים",
+      "emoji": "🎻"
+    },
+    {
+      "id": "viola",
+      "name": "ויולה",
+      "category": "מיתרים",
+      "emoji": "🎻"
+    },
+    {
+      "id": "cello",
+      "name": "צ'לו",
+      "category": "מיתרים",
+      "emoji": "🎻"
+    },
+    {
+      "id": "double-bass",
+      "name": "קונטרבס",
+      "category": "מיתרים",
+      "emoji": "🎸"
+    },
+    {
+      "id": "guitar",
+      "name": "גיטרה",
+      "category": "מיתרים",
+      "emoji": "🎸"
+    },
+    {
+      "id": "electric-guitar",
+      "name": "גיטרה חשמלית",
+      "category": "מיתרים",
+      "emoji": "🎸"
+    },
+    {
+      "id": "harp",
+      "name": "נבל",
+      "category": "מיתרים",
+      "emoji": "🪘"
+    },
+    {
+      "id": "flute",
+      "name": "חליל",
+      "category": "נשיפה",
+      "emoji": "🎵"
+    },
+    {
+      "id": "clarinet",
+      "name": "קלרינט",
+      "category": "נשיפה",
+      "emoji": "🎵"
+    },
+    {
+      "id": "oboe",
+      "name": "אבוב",
+      "category": "נשיפה",
+      "emoji": "🎵"
+    },
+    {
+      "id": "bassoon",
+      "name": "בסון",
+      "category": "נשיפה",
+      "emoji": "🎵"
+    },
+    {
+      "id": "trumpet",
+      "name": "חצוצרה",
+      "category": "נשיפה",
+      "emoji": "🎺"
+    },
+    {
+      "id": "trombone",
+      "name": "טרומבון",
+      "category": "נשיפה",
+      "emoji": "🎺"
+    },
+    {
+      "id": "french-horn",
+      "name": "קרן יער",
+      "category": "נשיפה",
+      "emoji": "🎺"
+    },
+    {
+      "id": "saxophone",
+      "name": "סקסופון",
+      "category": "נשיפה",
+      "emoji": "🎷"
+    },
+    {
+      "id": "drums",
+      "name": "תופים",
+      "category": "הקשה",
+      "emoji": "🥁"
+    },
+    {
+      "id": "snare-drum",
+      "name": "תוף סנר",
+      "category": "הקשה",
+      "emoji": "🥁"
+    },
+    {
+      "id": "bass-drum",
+      "name": "תוף בס",
+      "category": "הקשה",
+      "emoji": "🥁"
+    },
+    {
+      "id": "cymbals",
+      "name": "מצילות",
+      "category": "הקשה",
+      "emoji": "🥁"
+    },
+    {
+      "id": "timpani",
+      "name": "טימפני",
+      "category": "הקשה",
+      "emoji": "🥁"
+    },
+    {
+      "id": "xylophone",
+      "name": "קסילופון",
+      "category": "הקשה",
+      "emoji": "🎹"
+    },
+    {
+      "id": "marimba",
+      "name": "מרימבה",
+      "category": "הקשה",
+      "emoji": "🎹"
+    },
+    {
+      "id": "piano",
+      "name": "פסנתר",
+      "category": "מקלדת",
+      "emoji": "🎹"
+    },
+    {
+      "id": "organ",
+      "name": "אורגן",
+      "category": "מקלדת",
+      "emoji": "🎹"
+    },
+    {
+      "id": "synthesizer",
+      "name": "סינתיסייזר",
+      "category": "מקלדת",
+      "emoji": "🎹"
+    },
+    {
+      "id": "electric-piano",
+      "name": "פסנתר חשמלי",
+      "category": "מקלדת",
+      "emoji": "🎹"
+    },
+    {
+      "id": "synth-bass",
+      "name": "בס סינתטי",
+      "category": "אלקטרוני",
+      "emoji": "🔊"
+    },
+    {
+      "id": "pad",
+      "name": "פד",
+      "category": "אלקטרוני",
+      "emoji": "🔊"
+    },
+    {
+      "id": "lead",
+      "name": "ליד",
+      "category": "אלקטרוני",
+      "emoji": "🔊"
+    },
+    {
+      "id": "arp",
+      "name": "ארפג'יו",
+      "category": "אלקטרוני",
+      "emoji": "🔊"
+    },
+    {
+      "id": "pluck",
+      "name": "פלאק",
+      "category": "אלקטרוני",
+      "emoji": "🔊"
+    },
+    {
+      "id": "choir",
+      "name": "מקהלה",
+      "category": "קולות",
+      "emoji": "👥"
+    },
+    {
+      "id": "vocal",
+      "name": "קול",
+      "category": "קולות",
+      "emoji": "🎤"
+    },
+    {
+      "id": "vocal-hook",
+      "name": "קול הוק",
+      "category": "קולות",
+      "emoji": "🎤"
+    },
+    {
+      "id": "duduk",
+      "name": "דודוק",
+      "category": "אתני",
+      "emoji": "🎵"
+    },
+    {
+      "id": "sitar",
+      "name": "סיטאר",
+      "category": "אתני",
+      "emoji": "🎸"
+    },
+    {
+      "id": "tabla",
+      "name": "טאבלה",
+      "category": "אתני",
+      "emoji": "🥁"
+    },
+    {
+      "id": "djembe",
+      "name": "ג'מבה",
+      "category": "אתני",
+      "emoji": "🥁"
+    }
+  ],
+  "categories": [
+    "מיתרים",
+    "נשיפה",
+    "הקשה",
+    "מקלדת",
+    "אלקטרוני",
+    "קולות",
+    "אתני"
+  ]
+}
+

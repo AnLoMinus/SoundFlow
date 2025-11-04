@@ -1,82 +1,54 @@
-🎵 **מאגר יצירת הוראות למוזיקה עם Stable Audio**  
-שם מוצע: **SoundFlow (SF)** — שילוב של _Sound_ ו-_Flow_, המשקף זרימה חופשית ויצירתית של צלילים ופרומפטים.
+# SoundFlow 🎵
 
----
+אתר סטטי ליצירת הוראות מדויקות (prompts) למוזיקה עם Stable Audio.
 
-## 🎧 מטרת המאגר
-
-לאפשר יצירה חכמה של **הוראות מדויקות (prompts)** להפקת מוזיקה ב־[StableAudio.com](https://stableaudio.com/), על פי סגנונות, מצבי רוח, מבנים מוזיקליים, ואלגוריתמים של זרימה. המאגר ישמש תשתית אחידה לכל היוצרים והפרויקטים שלך.
-
----
-
-## 📂 מבנה מוצע למאגר
+## מבנה הפרויקט
 
 ```
 SoundFlow/
-│
-├── README.md                  # תיעוד ראשי על שימוש במאגר
-├── prompts/
-│   ├── 01_energy_boost.md     # פרומפטים לקטעי אנרגיה גבוהים ⚡
-│   ├── 02_chill_ambient.md    # מוזיקה רגועה, אווירה וזרימה 🌊
-│   ├── 03_epic_orchestral.md  # מוזיקה קולנועית אפית 🎬
-│   ├── 04_trap_fusion.md      # שילוב טרפ, אתני, אלקטרוני 🔥
-│   ├── 05_mystic_sparks.md    # קטעים מיסטיים־הולוגרפיים ✨
-│   └── 06_custom_templates/   # טמפלטים לפי מבנה
-│
-├── algorithms/
-│   ├── prompt_structure.md    # מבנה אלגוריתמי לפרומפטים
-│   ├── style_matrix.md        # מטריצת סגנונות לפי BPM, אנרגיה, כלים
-│   └── emotion_map.md         # מפה רגשית בין מילות תיאור לסאונד
-│
-├── samples/
-│   ├── spark_war_intro.mp3    # דוגמה לסאונד נוצר מפרומפט
-│   ├── mellow_dreamscape.mp3
-│   └── epic_gate_opening.mp3
-│
-└── tools/
-    ├── stableaudio_guide.md   # מדריך ליצירת פרומפטים מיטביים
-    └── flow_chart.md          # תרשים זרימה למעבר מרעיון למוזיקה
+├── index.html          # עמוד ראשי
+├── styles.css          # עיצוב
+├── app.js              # לוגיקה ראשית
+├── data/
+│   ├── instruments.json    # כלי נגינה
+│   ├── styles.json         # סגנונות מוזיקליים
+│   └── moods.json          # מצבי רוח
+└── README.md
 ```
 
----
+## שימוש
 
-## ⚙️ מבנה פרומפט מומלץ (Template)
+1. פתח את `index.html` בדפדפן
+2. בחר כלי נגינה (תיבות סימון)
+3. בחר סגנון מוזיקלי
+4. בחר מצב רוח
+5. הגדר קצב (BPM)
+6. הוסף מילות מפתח (אופציונלי)
+7. הזן כותרת מותאמת אישית (אופציונלי)
+8. לחץ על "צור פרומפט"
+9. העתק או הורד את הפרומפט שנוצר
 
-```markdown
-🎼 **Prompt Title:** Spark Awakening  
-🎚 **Style:** Epic orchestral hybrid with electronic undertones  
-🎛 **Instruments:** Strings, deep synths, choir, cinematic percussion  
-🌡 **Mood:** Hopeful, powerful, rising energy  
-⏱ **Tempo:** 110 BPM  
-🎧 **Keywords:** ascension, light, awakening, energy flow, cosmic spark  
-🧠 **Prompt for StableAudio:**  
-"Epic orchestral hybrid score with deep synths, cinematic percussion, and ethereal choir. The track builds from a soft ambient intro to a powerful crescendo symbolizing awakening light and divine transformation. 110 BPM, cinematic mastering."
-```
+## תכונות
 
----
+- ✅ רשת של כלי נגינה עם תיבות סימון
+- ✅ בחירת סגנון מוזיקלי
+- ✅ בחירת מצב רוח
+- ✅ בחירת קצב פעימות (BPM) עם slider ו-presets
+- ✅ הוספת מילות מפתח מותאמות אישית
+- ✅ יצירת פרומפט אוטומטי
+- ✅ העתקה ל-clipboard
+- ✅ הורדה כקובץ טקסט
+- ✅ עיצוב מודרני ויפה
+- ✅ רספונסיבי למובייל
 
-## 🧩 פונקציות תומכות במאגר
+## טכנולוגיות
 
-- **Generator:** סקריפט המחולל פרומפטים אוטומטיים לפי מילת מפתח או סגנון.
-    
-- **Emotion-to-Sound:** ממפה רגשות (כמו “אהבה”, “מלחמה”, “גאולה”) לכלים, סולם, וקצב.
-    
-- **AutoCategorizer:** מזהה סוג מוזיקה לפי תיאור וממקם בתיקייה הרלוונטית.
-    
+- HTML5
+- CSS3 (עם Gradients ו-Backdrop Filters)
+- JavaScript (Vanilla)
+- JSON לנתונים
 
----
+## רישיון
 
-## 🌟 יישומים והרחבות
-
-- שימוש ב־AI ליצירת לופים, סצנות לסרטים או משחקים.
-    
-- שילוב עם מאגרי קלפים ומאגרי אנרגיה (לדוגמה _Exit the Matrix_ או _SparKing_).
-    
-- יצירת **Sound ID** ייחודי לכל מאגר תוכן לפי סגנון קבוע.
-    
-
----
-
-📅 **תאריך:** 4.11.2025 | 🕕 **שעה:** 06:45 | 🗓 **תאריך עברי:** ג׳ בחשוון תשפ״ו  
-📜 **מקור השראה:** _“הַנֹּתֵן שִׁיר בַּלָּיְלָה”_ (איוב ל״ה, י׳) — השם נותן השראה בלבבות לשיר גם מתוך החושך.
+פרויקט אישי של AnLoMinus
 

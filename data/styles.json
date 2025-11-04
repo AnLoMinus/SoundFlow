@@ -1,0 +1,65 @@
+{
+  "styles": [
+    {
+      "id": "epic-orchestral",
+      "name": "אפיק אורכיסטרלי",
+      "emoji": "🎬",
+      "description": "מוזיקה קולנועית אפית עם כלים קלאסיים"
+    },
+    {
+      "id": "chill-ambient",
+      "name": "רגוע אמביינט",
+      "emoji": "🌊",
+      "description": "מוזיקה רגועה ואווירה"
+    },
+    {
+      "id": "trap-fusion",
+      "name": "טראפ פיוז'ן",
+      "emoji": "🔥",
+      "description": "שילוב טראפ, אתני ואלקטרוני"
+    },
+    {
+      "id": "mystic-sparks",
+      "name": "ניצוצות מיסטיים",
+      "emoji": "✨",
+      "description": "קטעים מיסטיים-הולוגרפיים"
+    },
+    {
+      "id": "hybrid-electronic",
+      "name": "היברידי אלקטרוני",
+      "emoji": "⚡",
+      "description": "שילוב כלים קלאסיים ואלקטרוניים"
+    },
+    {
+      "id": "cinematic",
+      "name": "קולנועי",
+      "emoji": "🎥",
+      "description": "סאונד קולנועי מלא"
+    },
+    {
+      "id": "dark-ambient",
+      "name": "אמביינט כהה",
+      "emoji": "🌑",
+      "description": "אווירה כהה ומיסטרית"
+    },
+    {
+      "id": "uplifting",
+      "name": "מעורר השראה",
+      "emoji": "🌟",
+      "description": "מוזיקה מעוררת ומעלה"
+    },
+    {
+      "id": "energetic",
+      "name": "אנרגטי",
+      "emoji": "⚡",
+      "description": "מוזיקה מלאת אנרגיה"
+    },
+    {
+      "id": "meditative",
+      "name": "מדיטטיבי",
+      "emoji": "🧘",
+      "description": "מוזיקה מרגיעה ומדיטטיבית"
+    }
+  ]
+}
+

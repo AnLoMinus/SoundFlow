@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundFlow - יצירת הוראות למוזיקה</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🎵 SoundFlow</h1>
+            <p class="subtitle">יצירת הוראות מדויקות למוזיקה עם Stable Audio</p>
+        </header>
+
+        <main>
+            <!-- סעיף כלי נגינה -->
+            <section class="card instruments-section">
+                <h2>🎸 כלי נגינה</h2>
+                <div id="instruments-container" class="instruments-grid">
+                    <!-- יוטען דינמית -->
+                </div>
+            </section>
+
+            <!-- סעיף סגנון -->
+            <section class="card style-section">
+                <h2>🎨 סגנון מוזיקלי</h2>
+                <div id="styles-container" class="styles-grid">
+                    <!-- יוטען דינמית -->
+                </div>
+            </section>
+
+            <!-- סעיף מצב רוח -->
+            <section class="card mood-section">
+                <h2>💭 מצב רוח</h2>
+                <div id="moods-container" class="moods-grid">
+                    <!-- יוטען דינמית -->
+                </div>
+            </section>
+
+            <!-- סעיף קצב -->
+            <section class="card tempo-section">
+                <h2>⏱ קצב פעימות (BPM)</h2>
+                <div class="tempo-controls">
+                    <input type="range" id="tempo-slider" min="60" max="180" value="110" step="5">
+                    <div class="tempo-display">
+                        <span id="tempo-value">110</span> BPM
+                    </div>
+                    <div class="tempo-presets">
+                        <button class="preset-btn" data-tempo="60">איטי (60)</button>
+                        <button class="preset-btn" data-tempo="90">בינוני (90)</button>
+                        <button class="preset-btn" data-tempo="110">בינוני-מהיר (110)</button>
+                        <button class="preset-btn" data-tempo="140">מהיר (140)</button>
+                        <button class="preset-btn" data-tempo="180">מאוד מהיר (180)</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- סעיף מילות מפתח -->
+            <section class="card keywords-section">
+                <h2>🔑 מילות מפתח נוספות</h2>
+                <div class="keywords-input">
+                    <input type="text" id="keywords-input"
+                        placeholder="הזן מילות מפתח מופרדות בפסיקים (למשל: אור, התעוררות, אנרגיה)">
+                    <button id="add-keywords-btn" class="btn-secondary">הוסף</button>
+                </div>
+                <div id="keywords-list" class="keywords-list">
+                    <!-- מילות מפתח שנוספו -->
+                </div>
+            </section>
+
+            <!-- סעיף כותרת מותאמת אישית -->
+            <section class="card title-section">
+                <h2>📝 כותרת מותאמת אישית (אופציונלי)</h2>
+                <input type="text" id="custom-title" placeholder="הזן כותרת לפרומפט שלך">
+            </section>
+
+            <!-- כפתור יצירת פרומפט -->
+            <section class="card generate-section">
+                <button id="generate-btn" class="btn-primary">✨ צור פרומפט</button>
+            </section>
+
+            <!-- תוצאה -->
+            <section id="result-section" class="card result-section" style="display: none;">
+                <h2>🎼 הפרומפט שנוצר</h2>
+                <div id="prompt-result" class="prompt-result">
+                    <!-- הפרומפט יוצג כאן -->
+                </div>
+                <div class="result-actions">
+                    <button id="copy-btn" class="btn-secondary">📋 העתק clipboard</button>
+                    <button id="download-btn" class="btn-secondary">💾 הורד כקובץ</button>
+                    <button id="reset-btn" class="btn-secondary">🔄 אפס הכל</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
