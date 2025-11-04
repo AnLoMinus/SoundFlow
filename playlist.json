@@ -1,0 +1,184 @@
+{
+  "playlist": {
+    "name": "SoundFlow Playlist",
+    "creator": "AnLoMinus – Sparks of Creation",
+    "created_date": "2025-11-04",
+    "hebrew_date": "ג' בחשוון תשפ\"ו",
+    "license": "CC BY-NC-SA 4.0",
+    "total_songs": 2,
+    "max_songs": 24,
+    "total_duration_estimate": "~8 minutes",
+    "bpm_range": {
+      "min": 96,
+      "max": 180
+    }
+  },
+  "songs": [
+    {
+      "id": 1,
+      "title": "PowerRise",
+      "full_title": "PowerRise | Energetic Anthem by AnLoMinus",
+      "bpm": 180,
+      "style": "Cinematic Electric / אנרגטי",
+      "mood": {
+        "name": "עוצמתי",
+        "emoji": "💪",
+        "description": "Power, Victory, Heroic Energy"
+      },
+      "instruments": [
+        "violin",
+        "brass",
+        "flute",
+        "drums",
+        "saxophone",
+        "bass",
+        "electric piano"
+      ],
+      "keywords": ["עוצמה", "כוח", "גבורה", "ניצחון"],
+      "date": "2025-11-04",
+      "time": "06:45",
+      "link": "PowerRise/index.html",
+      "prompt": "PowerRise/StableAudio_Prompt.txt",
+      "status": "completed"
+    },
+    {
+      "id": 2,
+      "title": "SparkDevotion",
+      "full_title": "AnLoMinus in Motion – Energy Devotion",
+      "bpm": 96,
+      "style": "Electro-mystic trap / היברידי אלקטרוני",
+      "mood": {
+        "name": "אנרגטי",
+        "emoji": "⚡",
+        "description": "Awakening, Kinetic, Divine-tech Fusion"
+      },
+      "instruments": [
+        "synthesizer",
+        "synth bass",
+        "pad",
+        "lead",
+        "arpeggio",
+        "drums",
+        "bass drum",
+        "electric piano"
+      ],
+      "keywords": ["אנרגיה", "תנועה", "דינמיות", "פעילות"],
+      "date": "2025-11-04",
+      "time": "07:12",
+      "link": "SparkDevotion/index.html",
+      "prompt": "SparkDevotion/StableAudio_Prompt.txt",
+      "status": "completed",
+      "project": "SparkDevotion (SD) - סדרה מוזיקלית של אלקטרומגנטיות רוחנית"
+    },
+    {
+      "id": 3,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 4,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 5,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 6,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 7,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 8,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 9,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 10,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 11,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 12,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 13,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 14,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 15,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 16,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 17,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 18,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 19,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 20,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 21,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 22,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 23,
+      "title": "[שם השיר]",
+      "status": "planned"
+    },
+    {
+      "id": 24,
+      "title": "[שם השיר]",
+      "status": "planned"
+    }
+  ]
+}
