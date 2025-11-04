@@ -56,7 +56,71 @@ SoundFlow/
 - JavaScript (Vanilla)
 - JSON לנתונים
 
-## רישיון
+## 📂 מבנה הפרויקט המלא
 
-פרויקט אישי של AnLoMinus
+```
+SoundFlow/
+├── index.html              # עמוד ראשי
+├── styles.css              # עיצוב
+├── app.js                  # לוגיקה ראשית
+├── data/
+│   ├── instruments.json    # כלי נגינה
+│   ├── styles.json         # סגנונות מוזיקליים
+│   └── moods.json          # מצבי רוח
+├── PowerRise/              # שיר ראשון
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   ├── metadata.json
+│   └── ...
+├── SparkDevotion/          # שיר שני
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   ├── metadata.json
+│   └── ...
+├── AwakeningArc/           # אלבום - 5 שלבים
+│   ├── README.md
+│   ├── MoonFlow/           # שלב 1
+│   ├── LightPulse/         # שלב 3
+│   └── InfiniteCalm/        # שלב 5
+├── playlist-methods/       # 39 שיטות אפיון
+│   ├── README.md
+│   ├── INDEX.md
+│   ├── SUMMARY.md
+│   └── [39 מסמכי שיטות]
+├── VISION.md               # החזון הגדול
+├── PLAYLIST.md             # פלייליסט
+├── playlist.json           # פלייליסט JSON
+├── LICENSE                 # רישיון
+├── CHANGELOG.md            # יומן אירועים
+├── CODE_OF_CONDUCT.md      # קוד התנהגות
+├── CONTRIBUTORS.md         # תורמים
+├── CONTRIBUTING.md         # מדריך תרומה
+└── SECURITY.md             # מדריך אבטחה
+```
+
+## 📚 קבצים חשובים
+
+- **[VISION.md](VISION.md)** - החזון הגדול: סט כלים למנצח התזמורת בבית המקדש
+- **[PLAYLIST.md](PLAYLIST.md)** - פלייליסט של 24 שירים
+- **[playlist-methods/](playlist-methods/)** - 39 שיטות אפיון כרונולוגי
+- **[AwakeningArc/](AwakeningArc/)** - אלבום מסע התעוררות
+
+## 🤝 תרומה לפרויקט
+
+אנחנו מזמינים תרומות! קרא את [CONTRIBUTING.md](CONTRIBUTING.md) לפרטים.
+
+## 🔒 אבטחה
+
+לדיווח על בעיות אבטחה, ראה [SECURITY.md](SECURITY.md).
+
+## 📜 רישיון
+
+פרויקט אישי של AnLoMinus – רישיון CC BY-NC-SA 4.0  
+ראה [LICENSE](LICENSE) לפרטים מלאים.
+
+---
+
+**🏛️ החזון:** סט כלים למנצח התזמורת בבית המקדש שיבנה במהרה בימינו בעזרת השם!
 
