@@ -1,0 +1,12 @@
+🌙 **MoonFlow - Dream Meditation Opening**
+
+🎚 **Style:** Chill Ambient - Peaceful and atmospheric music
+🎛 **Instruments:** Pad, synthesizer, flute, strings, reverb, breathing sounds
+🌡 **Mood:** Meditative 🧘
+⏱ **Tempo:** 90 BPM
+🎧 **Keywords:** Dream, fantasy, atmosphere, flow
+
+🧠 **Prompt for StableAudio:**
+
+"Chill ambient peaceful and atmospheric music, featuring pad, synthesizer, flute, strings, reverb, breathing sounds. The track conveys a meditative mood with dream, fantasy, atmosphere, flow. 90 BPM, cinematic mastering with chill ambient elements."
+
